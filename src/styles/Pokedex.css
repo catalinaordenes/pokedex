@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+.pokemon-detail{
+    display: flex;
+    justify-content: center;
+    font-family: 'Silkscreen', sans-serif;
+    min-height: 100vh;
+    background-color: #be0000;
+    flex-direction: column;
+ 
+}
+
+.card-detail{
+    margin: 30px;
+    background: linear-gradient(0deg, #3a71d2, transparent);;
+    width: 100%; 
+    margin-bottom: 20px; 
+    background-color: #f5f5f5; 
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-container-detail {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .card-content{
+    color: white;
+  }
+
+  .card-title-detail{
+    font-size: 25px;
+    color: #396dba;
+  }
+
+
+
+  .card-image-detail {
+   
+    object-fit: cover;  
+    width: 40%;
+  
+  }
+
+  .exit{
+    color: #ffea54;
+    margin: 25px;
+
+  }
+
+  .exit:hover{
+    color: #f1e798;;
+  }

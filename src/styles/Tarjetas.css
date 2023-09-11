@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+.home-container {
+  background: linear-gradient(180deg, #70D8F8 0%, #13BFA0 51.38%, #4994b4 100%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.card-container {
+  font-family: 'Silkscreen', sans-serif;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: grid;
+  grid-gap: 40px;
+  justify-content: center;
+}
+
+.card {
+  min-width: 250px;
+  background: linear-gradient(0deg, #3a71d2, transparent);
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-inner {
+  padding: 10px;
+}
+
+.number {
+  color: #396dba;
+  font-size: 25px;
+}
+
+.card-image {
+  cursor: pointer;
+  width: 100%;
+  max-height: 80%;
+  object-fit: cover;
+  width: 60%;
+  max-height: 80%;
+}
+
+.card-title {
+  font-size: 16px;
+  margin-top: 10px;
+  color: white;
+}
+
+.favorite {
+  background: none !important;
+  border: none !important;
+  color: #ad55cc;
+  outline: none !important;
+  cursor: pointer;
+}
+
+.favorite-button {
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  width: 120px;
+  margin: 20px;
+  align-self: center;
+
+  font-weight: 600;
+  background-color: #6843eb;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.favorite-button:hover {
+  background-color: #4a2abd;
+}
+
+.all-button {
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  width: 120px;
+  align-self: center;
+
+  font-weight: 600;
+  background-color: #6843eb;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.all-button:hover {
+  background-color: #4a2abd;
+}
+
+
+@media (max-width: 768px) {
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .card {
+    min-width: 250px;
+    background: linear-gradient(0deg, #3a71d2, transparent);
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
